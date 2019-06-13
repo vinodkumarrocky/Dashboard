@@ -1,8 +1,8 @@
 {
   "name": "dashboard-react",
   "version": "1.1.0",
+  "homepage":"https://vinodkumarrocky.github.io/dashboard-react/",
   "private": true,
-  "homepage":"https://vinodkumarrocky.github.io/Dashboard/"
   "dependencies": {
     "bootstrap": "4.3.1",
     "chart.js": "2.8.0",
@@ -20,6 +20,8 @@
     "reactstrap": "8.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
