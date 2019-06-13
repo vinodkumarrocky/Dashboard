@@ -2,6 +2,7 @@
   "name": "dashboard-react",
   "version": "1.1.0",
   "private": true,
+  "homepage":"https://vinodkumarrocky.github.io/Dashboard/"
   "dependencies": {
     "bootstrap": "4.3.1",
     "chart.js": "2.8.0",
